@@ -1,0 +1,607 @@
+<templateSet group="logbooking-templates">
+  <template name=".sh" value="- $DESCRIPTION$&#10;&#10;```shell&#10;$CONTENTS$&#10;```&#10;&#10;&gt; $NOTES$" description="Quick shell script log template" toReformat="false" toShortenFQNames="false">
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTENTS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NOTES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ANY" value="true" />
+    </context>
+  </template>
+  <template name=".py" value="- $DESCRIPTION$&#10;&#10;```python&#10;$CONTENTS$&#10;```&#10;&#10;&gt; $NOTES$" description="Quick python log template" toReformat="false" toShortenFQNames="false">
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTENTS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NOTES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ANY" value="true" />
+    </context>
+  </template>
+  <template name=".table.1.1" value="|$HEADER1$|&#10;|-------------|&#10;|$VAL_1_1$|" description="Markdown Table (1x1)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.1.2" value="|$HEADER1$|&#10;|-------------|&#10;|$VAL_1_1$|&#10;|$VAL_2_1$|" description="Markdown Table (1x2)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.1.3" value="|$HEADER1$|&#10;|-------------|&#10;|$VAL_1_1$|&#10;|$VAL_2_1$|&#10;|$VAL_3_1$|" description="Markdown Table (1x3)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.2.1" value="|$HEADER1$|$HEADER2$|&#10;|-------------|-------------|&#10;|$VAL_1_1$|$VAL_1_2$|" description="Markdown Table (2x1)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.2.2" value="|$HEADER1$|$HEADER2$|&#10;|-------------|-------------|&#10;|$VAL_1_1$|$VAL_1_2$|&#10;|$VAL_2_1$|$VAL_2_2$|" description="Markdown Table (2x2)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.2.3" value="|$HEADER1$|$HEADER2$|&#10;|-------------|-------------|&#10;|$VAL_1_1$|$VAL_1_2$|&#10;|$VAL_2_1$|$VAL_2_2$|&#10;|$VAL_3_1$|$VAL_3_2$|" description="Markdown Table (2x3)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.3.1" value="|$HEADER1$|$HEADER2$|$HEADER3$|&#10;|-------------|-------------|-------------|&#10;|$VAL_1_1$|$VAL_1_2$|$VAL_1_3$|" description="Markdown Table (3x1)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.3.2" value="|$HEADER1$|$HEADER2$|$HEADER3$|&#10;|-------------|-------------|-------------|&#10;|$VAL_1_1$|$VAL_1_2$|$VAL_1_3$|&#10;|$VAL_2_1$|$VAL_2_2$|$VAL_2_3$|" description="Markdown Table (3x2)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.3.3" value="|$HEADER1$|$HEADER2$|$HEADER3$|&#10;|-------------|-------------|-------------|&#10;|$VAL_1_1$|$VAL_1_2$|$VAL_1_3$|&#10;|$VAL_2_1$|$VAL_2_2$|$VAL_2_3$|&#10;|$VAL_3_1$|$VAL_3_2$|$VAL_3_3$|" description="Markdown Table (3x3)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.4.1" value="|$HEADER1$|$HEADER2$|$HEADER3$|$HEADER4$|&#10;|-------------|-------------|-------------|-------------|&#10;|$VAL_1_1$|$VAL_1_2$|$VAL_1_3$|$VAL_1_4$|" description="Markdown Table (4x1)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.4.2" value="|$HEADER1$|$HEADER2$|$HEADER3$|$HEADER4$|&#10;|-------------|-------------|-------------|-------------|&#10;|$VAL_1_1$|$VAL_1_2$|$VAL_1_3$|$VAL_1_4$|&#10;|$VAL_2_1$|$VAL_2_2$|$VAL_2_3$|$VAL_2_4$|" description="Markdown Table (4x2)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.4.3" value="|$HEADER1$|$HEADER2$|$HEADER3$|$HEADER4$|&#10;|-------------|-------------|-------------|-------------|&#10;|$VAL_1_1$|$VAL_1_2$|$VAL_1_3$|$VAL_1_4$|&#10;|$VAL_2_1$|$VAL_2_2$|$VAL_2_3$|$VAL_2_4$|&#10;|$VAL_3_1$|$VAL_3_2$|$VAL_3_3$|$VAL_3_4$|" description="Markdown Table (4x3)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.5.1" value="|$HEADER1$|$HEADER2$|$HEADER3$|$HEADER4$|$HEADER5$|&#10;|-------------|-------------|-------------|-------------|-------------|&#10;|$VAL_1_1$|$VAL_1_2$|$VAL_1_3$|$VAL_1_4$|$VAL_1_5$|" description="Markdown Table (5x1)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.5.2" value="|$HEADER1$|$HEADER2$|$HEADER3$|$HEADER4$|$HEADER5$|&#10;|-------------|-------------|-------------|-------------|-------------|&#10;|$VAL_1_1$|$VAL_1_2$|$VAL_1_3$|$VAL_1_4$|$VAL_1_5$|&#10;|$VAL_2_1$|$VAL_2_2$|$VAL_2_3$|$VAL_2_4$|$VAL_2_5$|" description="Markdown Table (5x2)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.5.3" value="|$HEADER1$|$HEADER2$|$HEADER3$|$HEADER4$|$HEADER5$|&#10;|-------------|-------------|-------------|-------------|-------------|&#10;|$VAL_1_1$|$VAL_1_2$|$VAL_1_3$|$VAL_1_4$|$VAL_1_5$|&#10;|$VAL_2_1$|$VAL_2_2$|$VAL_2_3$|$VAL_2_4$|$VAL_2_5$|&#10;|$VAL_3_1$|$VAL_3_2$|$VAL_3_3$|$VAL_3_4$|$VAL_3_5$|" description="Markdown Table (5x3)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.6.1" value="|$HEADER1$|$HEADER2$|$HEADER3$|$HEADER4$|$HEADER5$|$HEADER6$|&#10;|-------------|-------------|-------------|-------------|-------------|-------------|&#10;|$VAL_1_1$|$VAL_1_2$|$VAL_1_3$|$VAL_1_4$|$VAL_1_5$|$VAL_1_6$|" description="Markdown Table (6x1)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_6" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.6.2" value="|$HEADER1$|$HEADER2$|$HEADER3$|$HEADER4$|$HEADER5$|$HEADER6$|&#10;|-------------|-------------|-------------|-------------|-------------|-------------|&#10;|$VAL_1_1$|$VAL_1_2$|$VAL_1_3$|$VAL_1_4$|$VAL_1_5$|$VAL_1_6$|&#10;|$VAL_2_1$|$VAL_2_2$|$VAL_2_3$|$VAL_2_4$|$VAL_2_5$|$VAL_2_6$|" description="Markdown Table (6x2)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_6" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.6.3" value="|$HEADER1$|$HEADER2$|$HEADER3$|$HEADER4$|$HEADER5$|$HEADER6$|&#10;|-------------|-------------|-------------|-------------|-------------|-------------|&#10;|$VAL_1_1$|$VAL_1_2$|$VAL_1_3$|$VAL_1_4$|$VAL_1_5$|$VAL_1_6$|&#10;|$VAL_2_1$|$VAL_2_2$|$VAL_2_3$|$VAL_2_4$|$VAL_2_5$|$VAL_2_6$|&#10;|$VAL_3_1$|$VAL_3_2$|$VAL_3_3$|$VAL_3_4$|$VAL_3_5$|$VAL_3_6$|" description="Markdown Table (6x3)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_6" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.7.1" value="|$HEADER1$|$HEADER2$|$HEADER3$|$HEADER4$|$HEADER5$|$HEADER6$|$HEADER7$|&#10;|-------------|-------------|-------------|-------------|-------------|-------------|-------------|&#10;|$VAL_1_1$|$VAL_1_2$|$VAL_1_3$|$VAL_1_4$|$VAL_1_5$|$VAL_1_6$|$VAL_1_7$|" description="Markdown Table (7x1)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER7" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_7" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.7.2" value="|$HEADER1$|$HEADER2$|$HEADER3$|$HEADER4$|$HEADER5$|$HEADER6$|$HEADER7$|&#10;|-------------|-------------|-------------|-------------|-------------|-------------|-------------|&#10;|$VAL_1_1$|$VAL_1_2$|$VAL_1_3$|$VAL_1_4$|$VAL_1_5$|$VAL_1_6$|$VAL_1_7$|&#10;|$VAL_2_1$|$VAL_2_2$|$VAL_2_3$|$VAL_2_4$|$VAL_2_5$|$VAL_2_6$|$VAL_2_7$|" description="Markdown Table (7x2)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER7" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_7" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_7" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.7.3" value="|$HEADER1$|$HEADER2$|$HEADER3$|$HEADER4$|$HEADER5$|$HEADER6$|$HEADER7$|&#10;|-------------|-------------|-------------|-------------|-------------|-------------|-------------|&#10;|$VAL_1_1$|$VAL_1_2$|$VAL_1_3$|$VAL_1_4$|$VAL_1_5$|$VAL_1_6$|$VAL_1_7$|&#10;|$VAL_2_1$|$VAL_2_2$|$VAL_2_3$|$VAL_2_4$|$VAL_2_5$|$VAL_2_6$|$VAL_2_7$|&#10;|$VAL_3_1$|$VAL_3_2$|$VAL_3_3$|$VAL_3_4$|$VAL_3_5$|$VAL_3_6$|$VAL_3_7$|" description="Markdown Table (7x3)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER7" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_7" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_7" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_7" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.8.1" value="|$HEADER1$|$HEADER2$|$HEADER3$|$HEADER4$|$HEADER5$|$HEADER6$|$HEADER7$|$HEADER8$|&#10;|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|&#10;|$VAL_1_1$|$VAL_1_2$|$VAL_1_3$|$VAL_1_4$|$VAL_1_5$|$VAL_1_6$|$VAL_1_7$|$VAL_1_8$|" description="Markdown Table (8x1)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER7" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER8" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_7" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_8" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.8.2" value="|$HEADER1$|$HEADER2$|$HEADER3$|$HEADER4$|$HEADER5$|$HEADER6$|$HEADER7$|$HEADER8$|&#10;|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|&#10;|$VAL_1_1$|$VAL_1_2$|$VAL_1_3$|$VAL_1_4$|$VAL_1_5$|$VAL_1_6$|$VAL_1_7$|$VAL_1_8$|&#10;|$VAL_2_1$|$VAL_2_2$|$VAL_2_3$|$VAL_2_4$|$VAL_2_5$|$VAL_2_6$|$VAL_2_7$|$VAL_2_8$|" description="Markdown Table (8x2)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER7" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER8" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_7" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_8" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_7" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_8" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".table.8.3" value="|$HEADER1$|$HEADER2$|$HEADER3$|$HEADER4$|$HEADER5$|$HEADER6$|$HEADER7$|$HEADER8$|&#10;|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|&#10;|$VAL_1_1$|$VAL_1_2$|$VAL_1_3$|$VAL_1_4$|$VAL_1_5$|$VAL_1_6$|$VAL_1_7$|$VAL_1_8$|&#10;|$VAL_2_1$|$VAL_2_2$|$VAL_2_3$|$VAL_2_4$|$VAL_2_5$|$VAL_2_6$|$VAL_2_7$|$VAL_2_8$|&#10;|$VAL_3_1$|$VAL_3_2$|$VAL_3_3$|$VAL_3_4$|$VAL_3_5$|$VAL_3_6$|$VAL_3_7$|$VAL_3_8$|" description="Markdown Table (8x3)" toReformat="false" toShortenFQNames="false">
+    <variable name="HEADER1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER7" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HEADER8" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_7" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_1_8" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_7" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_2_8" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_7" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_3_8" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".logdev" value="# Debugging Log - $PROJECT$&#10;**Issue:** $ISSUE$&#10;**Date:** $DATE$&#10;**Steps Taken:**&#10;$STEPS$&#10;**Resolution:** $RESOLUTION$" description="Software Development Log" toReformat="false" toShortenFQNames="false">
+    <variable name="PROJECT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ISSUE" expression="" defaultValue="Application crashes on startup" alwaysStopAt="true" />
+    <variable name="DATE" expression="date('yyyy-MM-dd')" defaultValue="date('yyyy-MM-dd')" alwaysStopAt="false" />
+    <variable name="STEPS" expression="" defaultValue="- Checked error logs&#10;- Identified missing dependency" alwaysStopAt="true" />
+    <variable name="RESOLUTION" expression="" defaultValue="Installed missing package" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".logit" value="# Server Maintenance Log&#10;**Date:** $DATE$&#10;**Server:** $SERVER$&#10;**Actions Taken:**&#10;$ACTIONS$" description="IT Operations Log" toReformat="false" toShortenFQNames="false">
+    <variable name="DATE" expression="date('yyyy-MM-dd')" defaultValue="date('yyyy-MM-dd')" alwaysStopAt="false" />
+    <variable name="SERVER" expression="" defaultValue="WebServer01" alwaysStopAt="true" />
+    <variable name="ACTIONS" expression="" defaultValue="- Updated security patches&#10;- Restarted services&#10;- Verified connectivity" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".logmanu" value="# Machine Performance Log&#10;**Machine ID:** $MACHINE$&#10;**Date:** $DATE$&#10;**Observations:**&#10;$OBSERVATIONS$&#10;**Next Steps:** $NEXT_STEPS$" description="Manufacturing Log" toReformat="false" toShortenFQNames="false">
+    <variable name="MACHINE" expression="" defaultValue="CNC-204" alwaysStopAt="true" />
+    <variable name="DATE" expression="date('yyyy-MM-dd')" defaultValue="date('yyyy-MM-dd')" alwaysStopAt="false" />
+    <variable name="OBSERVATIONS" expression="" defaultValue="- Temperature within normal range&#10;- Minor vibration detected" alwaysStopAt="true" />
+    <variable name="NEXT_STEPS" expression="" defaultValue="Schedule preventive maintenance" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".logkanban" value="# Kanban Board Log - $PROJECT$&#10;**Task:** $TASK$&#10;**Status:** $STATUS$&#10;**Assignee:** $ASSIGNEE$&#10;**Date:** $DATE$&#10;**Notes:** $NOTES$" description="Kanban Log" toReformat="false" toShortenFQNames="false">
+    <variable name="PROJECT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TASK" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="STATUS" expression="" defaultValue="In Progress" alwaysStopAt="true" />
+    <variable name="ASSIGNEE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date('yyyy-MM-dd')" defaultValue="date('yyyy-MM-dd')" alwaysStopAt="false" />
+    <variable name="NOTES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".logshift" value="# Shift Report - $SHIFT$&#10;**Date:** $DATE$&#10;**Supervisor:** $SUPERVISOR$&#10;**Issues:** $ISSUES$&#10;**Actions Taken:** $ACTIONS$&#10;**Comments:** $COMMENTS$" description="Shift Report Log" toReformat="false" toShortenFQNames="false">
+    <variable name="SHIFT" expression="" defaultValue="Morning" alwaysStopAt="true" />
+    <variable name="DATE" expression="date('yyyy-MM-dd')" defaultValue="date('yyyy-MM-dd')" alwaysStopAt="false" />
+    <variable name="SUPERVISOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ISSUES" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACTIONS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COMMENTS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".logpr" value="# Pull Request Checklist&#10;&#10;Please ensure you have addressed the following items before merging:&#10;&#10;- [$FUNCTIONALITY$] **Functionality:**&#10;  - Verify that the changes solve the intended problem and work as expected.&#10;- [$CORRECTNESS$] **Correctness:**&#10;  - Check that edge cases and error conditions are handled appropriately.&#10;- [$CODE_STYLE$] **Code Style:**&#10;  - Confirm that the code adheres to the project's style guidelines and is properly formatted.&#10;- [$READABILITY$] **Readability &amp; Maintainability:**&#10;  - Ensure the code is clear, well-structured, and easy to understand for future maintenance.&#10;- [$TESTING$] **Testing:**&#10;  - Verify that sufficient unit/integration tests have been added or updated, and that all tests pass.&#10;- [$DOCUMENTATION$] **Documentation:**&#10;  - Confirm that new features or APIs are well-documented (including inline comments and external documentation if needed).&#10;- [$COMMENTS$] **Comments:**&#10;  - Check that complex or non-obvious sections of code include clear, helpful comments.&#10;- [$ERROR_HANDLING$] **Error Handling:**&#10;  - Ensure that error conditions are handled gracefully with informative error messages.&#10;- [$PERFORMANCE$] **Performance:**&#10;  - Review changes for potential performance issues or bottlenecks.&#10;- [$SECURITY$] **Security:**&#10;  - Check that the changes do not introduce security vulnerabilities or expose sensitive data.&#10;- [$DEPENDENCIES$] **Dependencies:**&#10;  - Assess whether any new dependencies are necessary and verify that they are compatible with the project.&#10;- [$BACKWARD_COMPATIBILITY$] **Backward Compatibility:**&#10;  - Ensure that the changes do not break existing functionality or violate API contracts.&#10;- [$COMMIT_QUALITY$] **Commit Quality:**&#10;  - Verify that commit messages are clear, descriptive, and logically grouped.&#10;- [$CODE_DUPLICATION$] **Code Duplication:**&#10;  - Confirm that redundant or duplicated code has been minimized or refactored.&#10;- [$PEER_FEEDBACK$] **Peer Feedback:**&#10;  - Ensure that the pull request addresses all review comments and suggestions from your peers.&#10;&#10;Additional Comments/Notes:&#10;- $ADDITIONAL$" description="Pull Request Checklist with Interactive Checkboxes" toReformat="false" toShortenFQNames="false">
+    <variable name="FUNCTIONALITY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CORRECTNESS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CODE_STYLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="READABILITY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TESTING" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DOCUMENTATION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COMMENTS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ERROR_HANDLING" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PERFORMANCE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SECURITY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEPENDENCIES" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BACKWARD_COMPATIBILITY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COMMIT_QUALITY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CODE_DUPLICATION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PEER_FEEDBACK" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ADDITIONAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".logsupport" value="# Customer Support Log - $CUSTOMER$&#10;**Date:** $DATE$&#10;**Issue Reported:** $ISSUE$&#10;**Support Agent:** $AGENT$&#10;**Resolution:** $RESOLUTION$&#10;**Follow-up:** $FOLLOW_UP$" description="Customer Support Log" toReformat="false" toShortenFQNames="false">
+    <variable name="CUSTOMER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date('yyyy-MM-dd')" defaultValue="date('yyyy-MM-dd')" alwaysStopAt="false" />
+    <variable name="ISSUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="AGENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RESOLUTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FOLLOW_UP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".logretro" value="# Project Retrospective - $PROJECT$&#10;**Date:** $DATE$&#10;**What Went Well:** $WENT_WELL$&#10;**Challenges:** $CHALLENGES$&#10;**Action Items:** $ACTION_ITEMS$&#10;**Overall Rating:** $RATING$" description="Project Retrospective Log" toReformat="false" toShortenFQNames="false">
+    <variable name="PROJECT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date('yyyy-MM-dd')" defaultValue="date('yyyy-MM-dd')" alwaysStopAt="false" />
+    <variable name="WENT_WELL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CHALLENGES" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACTION_ITEMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RATING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".logincident" value="# Incident Response Log - $INCIDENT_ID$&#10;**Date:** $DATE$&#10;**Impact:** $IMPACT$&#10;**Cause:** $CAUSE$&#10;**Actions Taken:** $ACTIONS$&#10;**Resolution:** $RESOLUTION$" description="Incident Response Log" toReformat="false" toShortenFQNames="false">
+    <variable name="INCIDENT_ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date('yyyy-MM-dd')" defaultValue="date('yyyy-MM-dd')" alwaysStopAt="false" />
+    <variable name="IMPACT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CAUSE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACTIONS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RESOLUTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".logqa" value="# QA Report - $PROJECT$&#10;**Date:** $DATE$&#10;**Tested By:** $TESTER$&#10;**Issues Found:** $ISSUES$&#10;**Recommendations:** $RECOMMENDATIONS$" description="Quality Assurance Log" toReformat="false" toShortenFQNames="false">
+    <variable name="PROJECT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date('yyyy-MM-dd')" defaultValue="date('yyyy-MM-dd')" alwaysStopAt="false" />
+    <variable name="TESTER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ISSUES" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RECOMMENDATIONS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".logsales" value="# Sales Call Log - $CLIENT$&#10;**Date:** $DATE$&#10;**Sales Rep:** $SALES_REP$&#10;**Discussion Points:** $DISCUSSION$&#10;**Next Steps:** $NEXT_STEPS$" description="Sales Call Log" toReformat="false" toShortenFQNames="false">
+    <variable name="CLIENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date('yyyy-MM-dd')" defaultValue="date('yyyy-MM-dd')" alwaysStopAt="false" />
+    <variable name="SALES_REP" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DISCUSSION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NEXT_STEPS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".logfinance" value="# Financial Transaction Log - $TRANSACTION_ID$&#10;**Date:** $DATE$&#10;**Amount:** $AMOUNT$&#10;**Type:** $TYPE$&#10;**Account:** $ACCOUNT$&#10;**Notes:** $NOTES$" description="Financial Transaction Log" toReformat="false" toShortenFQNames="false">
+    <variable name="TRANSACTION_ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date('yyyy-MM-dd')" defaultValue="date('yyyy-MM-dd')" alwaysStopAt="false" />
+    <variable name="AMOUNT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACCOUNT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NOTES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=".logmarketing" value="# Marketing Campaign Log - $CAMPAIGN$&#10;**Date:** $DATE$&#10;**Channel:** $CHANNEL$&#10;**Objective:** $OBJECTIVE$&#10;**Results:** $RESULTS$&#10;**Next Steps:** $NEXT_STEPS$" description="Marketing Campaign Log" toReformat="false" toShortenFQNames="false">
+    <variable name="CAMPAIGN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date('yyyy-MM-dd')" defaultValue="date('yyyy-MM-dd')" alwaysStopAt="false" />
+    <variable name="CHANNEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="OBJECTIVE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RESULTS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NEXT_STEPS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
