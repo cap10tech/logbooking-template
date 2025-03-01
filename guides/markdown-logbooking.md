@@ -119,6 +119,6 @@ We’re so confident that this system will transform your workflow, we guarantee
 
 Transform your documentation process into a strategic advantage and join the ranks of top performers who log every step of their journey. This is more than just a tool—it’s your pathway to peak productivity and success.
 
-Happy logbooking, and here’s to building a knowledge base that scales like a $100M offer!
+Happy logbooking, and here’s to building a knowledge base that scales!
 
 *For more advanced techniques and tips, visit [cap10.tech](https://cap10.tech).*
