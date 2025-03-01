@@ -1,0 +1,125 @@
+TITLE: $TITLE  
+LOGBOOK_ENTRY_FILENAME: $LOGBOOK_ENTRY_FILENAME
+
+## Research Log Entry
+
+### Research Overview
+- **Research Topic:**
+  - [ ] Enter the subject or area you are investigating:
+    - 
+    -
+  - **Prompts:** What specific field or problem are you exploring? What is the scope of your research?
+
+- **Key Questions:**
+  - [ ] List the main questions driving your investigation:
+    - 
+    -
+  - **Prompts:** What are the critical questions you need to answer? What uncertainties are you trying to resolve?
+
+- **Hypotheses / Objectives:**
+  - [ ] Describe your hypotheses or research objectives:
+    - 
+    -
+  - **Prompts:** What do you expect to find? What are your goals for this research session?
+
+- **Sources & Data:**
+  - [ ] Identify key sources, datasets, or literature to review:
+    - 
+    -
+  - **Prompts:** What primary and secondary sources will you consult? Are there specific databases, articles, or reports you plan to use?
+
+---
+
+### Literature / Data Review
+
+- **Summary of Findings:**
+  - [ ] Record important findings or data points from your sources:
+    - 
+    -
+  - **Prompts:** What are the main insights from your literature or data review? Note any significant quotes, statistics, or trends.
+
+- **Source Documentation:**
+  - [ ] List your sources with relevant details or URLs:
+    - 
+    -
+  - **Prompts:** Ensure each source is clearly cited for future reference.
+
+---
+
+### Analysis & Observations
+
+- **Data Analysis:**
+  - [ ] Describe the methods used to analyze your data or literature:
+    - 
+    -
+  - **Prompts:** What analytical tools or techniques did you apply? Were there any challenges during analysis?
+
+- **Observations:**
+  - [ ] Summarize patterns, anomalies, or trends noticed during your review:
+    - 
+    -
+  - **Prompts:** What stood out in your analysis? Are there any surprising findings?
+
+- **Challenges Encountered:**
+  - [ ] Note any obstacles or issues faced during the research:
+    - 
+    -
+  - **Prompts:** What difficulties did you encounter and how did you address them?
+
+---
+
+### Conclusions & Next Steps
+
+- **Preliminary Conclusions:**
+  - [ ] Summarize the conclusions drawn from your research:
+    - 
+    -
+  - **Prompts:** Based on your findings, what initial conclusions can you make? What do the results suggest?
+
+- **Further Research & Action Items:**
+  - [ ] Outline any follow-up questions or additional experiments required:
+    - 
+    -
+  - **Prompts:** What are your next steps? Is there further research needed to validate your conclusions?
+
+---
+
+### Additional Notes & Resources
+
+- **Insights & Reflections:**
+  - [ ] Record any additional thoughts or insights:
+    - 
+    -
+  - **Prompts:** What did you learn from this research session? How might this influence future research?
+
+- **Resource Links:**
+  - [ ] Provide links to related guides, articles, or external documentation:
+    - 
+    -
+  - **Prompts:** Are there further readings or resources that could enhance your research understanding?
+
+---
+
+### Best Practices for Research Logs
+
+1. **Structured Documentation:**
+  - Clearly separate sections for overview, review, analysis, and conclusions.
+  - Use headings, bullet points, and horizontal rules to organize your notes.
+
+2. **Detailed Reflection:**
+  - Start by defining clear research questions and objectives.
+  - Document insights, methodologies, and challenges as they arise.
+
+3. **Source Management:**
+  - Maintain accurate citations and links to all sources for future reference.
+
+4. **Iterative Process:**
+  - Regularly review and update your research log as new insights emerge.
+  - Use this document as a living record to support formal research reports.
+
+5. **Editor Configuration:**
+  - Ensure your environment (IntelliJ, Visual Studio Code, etc.) is set up for markdown with proper syntax highlighting for enhanced readability.
+
+---
+
+Happy researching!

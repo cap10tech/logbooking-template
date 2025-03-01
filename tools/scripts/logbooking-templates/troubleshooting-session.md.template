@@ -1,0 +1,135 @@
+TITLE: $TITLE  
+LOGBOOK_ENTRY_FILENAME: $LOGBOOK_ENTRY_FILENAME
+
+## Troubleshooting Session Log Entry
+
+### Problem Description
+
+- **Overview:** Describe the issue encountered (e.g., error messages, unexpected behavior).
+  - [ ] Enter a brief description:
+    - 
+    -
+  - **Prompts:** What triggered the session? What did you observe?
+
+- **Symptoms:** List key symptoms, including any error logs or abnormal system responses.
+  - [ ] List main symptoms:
+    - 
+    -
+  - **Prompts:** What error codes or log patterns did you notice? Are there specific timings or conditions when the issue occurs?
+
+- **Environment:** Detail relevant environment information (OS, software versions, configurations).
+  - [ ] List environment details:
+    - 
+    -
+  - **Prompts:** Which system configurations or version numbers might be impacting the issue?
+
+---
+
+### Investigation Steps
+
+- **Initial Diagnosis:** Outline the first steps taken to identify the problem.
+  - [ ] Describe initial observations:
+    - 
+    -
+  - **Prompts:** What did you check first? What were your initial hypotheses?
+
+- **Actions Taken:** Document subsequent troubleshooting steps, including commands executed and tools used.
+  - [ ] List actions taken:
+    - 
+    -
+  - **Prompts:** What specific diagnostic commands or procedures did you use? Did you attempt any configuration changes?
+
+- **Command Log (if applicable):**
+  > Cap10Bill suggests editing the base [templates](script/logbooking-templates)
+  - [ ] Log into the application server (e.g., using the pem key stored in vault under "app server key"):
+    ```shell
+    ssh -i user-key.pem user@10.0.0.50
+    ```
+  > Remember: the pem passkey is also in the vault.
+  - [ ] Check system logs:
+    ```shell
+    # Example command to check logs:
+    $ tail -n 50 /var/log/application.log
+    ```
+  - [ ] Record key output:
+    ```shell
+    
+    ```
+  - [ ] Additional commands or notes:
+    ```shell
+    
+    ```
+
+---
+
+### Findings & Analysis
+
+- **Observations:** Summarize insights or anomalies discovered during investigation.
+  - [ ] Record observations:
+    - 
+    -
+  - **Prompts:** What patterns or irregularities did you notice? Were there any unexpected results?
+
+- **Root Cause:** Identify the root cause or provide hypotheses if the cause is still uncertain.
+  - [ ] List potential root causes:
+    - 
+    -
+  - **Prompts:** Is there a recurring error, misconfiguration, or environmental factor that could be responsible?
+
+- **Unsuccessful Attempts:** Note any approaches that did not resolve the issue.
+  - [ ] Document methods that failed:
+    - 
+    -
+  - **Prompts:** What troubleshooting steps did not work, and what did you learn from those failures?
+
+---
+
+### Resolution / Workaround
+
+- **Implemented Fix:** Describe the corrective action or workaround applied.
+  - [ ] Detail the solution:
+    - 
+    -
+  - **Prompts:** How did you address the root cause? What specific changes or fixes were implemented?
+
+- **Verification:** Explain how you verified that the issue was resolved.
+  - [ ] Outline verification steps:
+    - 
+    -
+  - **Prompts:** What tests or checks confirmed that the fix worked? Were there any performance or functionality validations?
+
+- **Additional Considerations:** Mention any follow-up actions or monitoring steps.
+  - [ ] List further actions:
+    - 
+    -
+  - **Prompts:** Should additional monitoring or preventive measures be set up to avoid recurrence?
+
+---
+
+### Additional Notes & Follow-Up
+
+- **Lessons Learned:** Document key takeaways and preventive measures for future reference.
+  - [ ] Write down lessons learned:
+    - 
+    -
+  - **Prompts:** What would you do differently next time? What insights can help in similar scenarios?
+
+- **Further Resources:** Include links or references to internal troubleshooting guides or external documentation.
+  - [ ] Provide relevant resources:
+    - 
+    -
+  - **Prompts:** Are there guides, documentation, or external links that could be useful for future troubleshooting?
+
+---
+
+### Best Practices for Troubleshooting Logs
+
+1. **Detail Every Step:** Clearly record the problem, investigation steps, and resolution process.
+2. **Use Clear Formatting:** Utilize headings, bullet points, and horizontal rules to separate sections.
+3. **Utilize Code Blocks:** When including command outputs or logs, use markdown code blocks for clarity.
+4. **Reflect and Improve:** Regularly review and update your logs to refine your troubleshooting process.
+5. **Reference Guides:** Link to internal or external resources (e.g., the [Internal Troubleshooting Guide](#)) as needed.
+
+---
+
+Happy troubleshooting!

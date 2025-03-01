@@ -1,0 +1,149 @@
+TITLE: $TITLE  
+LOGBOOK_ENTRY_FILENAME: $LOGBOOK_ENTRY_FILENAME
+
+## Pull Request Review Log Entry
+
+Project: $PULL_REQUEST_PROJECT -  
+[$PULL_REQUEST_TOPIC]($PULL_REQUEST_URL)
+
+> Cap10Bill -]:-)> suggests pressing either [windows key][h] on Windows or [fn][fn] on your device to enable voice dictation.
+
+---
+
+### PR Summary & Reflection
+
+- **What is the purpose of this PR?**  
+  (Describe the feature or bug fix addressed by this PR.)
+  - [ ] Enter your summary here:
+    - 
+    -
+  - **Guide:** Consider what problem this PR is solving and whether it aligns with the overall project goals.
+
+- **Which issue or feature does this PR relate to?**  
+  (Reference the relevant issue or feature ticket.)
+  - [ ] Provide issue/ticket references:
+    - 
+    -
+  - **Guide:** Identify any tickets or documented issues that this change is addressing.
+
+- **What are the main changes introduced?**  
+  (Summarize the key modifications or additions.)
+  - [ ] List the major changes:
+    - 
+    -
+  - **Guide:** Describe which parts of the codebase are affected and why these changes are important.
+
+---
+
+### Pull Request Checklist with Detailed Notes
+
+**Functionality & Correctness**
+- [ ] **Functionality:** Does the PR solve the intended problem effectively?
+  - **Notes:**
+    - 
+- [ ] **Correctness:** Are edge cases and error conditions handled properly?
+  - **Notes:**
+    - 
+
+**Code Style & Readability**
+- [ ] **Code Style:** Is the code formatted according to the project’s guidelines?
+  - **Notes:**
+    - 
+- [ ] **Readability & Maintainability:** Is the code clear, well-structured, and easy to understand?
+  - **Notes:**
+    - 
+
+**Testing & Documentation**
+- [ ] **Testing:** Have appropriate tests been added or updated, and do all tests pass?
+  - **Notes:**
+    - 
+- [ ] **Documentation:** Is the code and its changes adequately documented?
+  - **Notes:**
+    - 
+
+**Comments & Error Handling**
+- [ ] **Comments:** Are complex sections of code well-commented to explain non-obvious logic?
+  - **Notes:**
+    - 
+- [ ] **Error Handling:** Are potential errors managed gracefully with proper error messages?
+  - **Notes:**
+    - 
+
+**Performance & Security**
+- [ ] **Performance:** Does the PR introduce any performance bottlenecks or inefficiencies?
+  - **Notes:**
+    - 
+- [ ] **Security:** Are there any potential security concerns or vulnerabilities introduced?
+  - **Notes:**
+    - 
+
+**Dependencies & Compatibility**
+- [ ] **Dependencies:** Are new dependencies justified, and are they compatible with the project?
+  - **Notes:**
+    - 
+- [ ] **Backward Compatibility:** Will these changes affect existing functionality adversely?
+  - **Notes:**
+    - 
+
+**Commit Quality & Code Duplication**
+- [ ] **Commit Quality:** Are commit messages clear, concise, and descriptive of the changes made?
+  - **Notes:**
+    - 
+- [ ] **Code Duplication:** Has redundant or duplicated code been minimized or refactored?
+  - **Notes:**
+    - 
+
+**Peer Feedback**
+- [ ] **Peer Feedback:** Have suggestions and feedback from reviewers been addressed?
+  - **Notes:**
+    - 
+
+**Follow-Up Items & Additional Considerations**
+- [ ] **Follow-Up Items:** List any follow-up actions or further testing required:
+  - **Sub-item:**
+    - 
+  - **Guide:** Think about additional documentation, regression testing, or gathering further user feedback.
+
+---
+
+### Detailed Review & Notes
+
+**Overall Assessment:**
+- [ ] Provide a brief summary of your overall impression of the PR:
+  - 
+  -
+- **Guide:** Reflect on the PR's alignment with project objectives and its overall impact on system quality.
+
+**Strengths:**
+- [ ] List positive aspects and improvements introduced by the PR:
+  - 
+  -
+- **Guide:** Highlight any innovative solutions or effective problem-solving demonstrated in the PR.
+
+**Areas for Improvement:**
+- [ ] Detail any issues, potential bugs, or enhancements needed:
+  - 
+  -
+- **Guide:** Focus on areas where clarity, performance, or functionality could be improved, and specify what changes are recommended.
+
+**Action Items / Next Steps:**
+- [ ] Outline any required changes or additional testing before merging:
+  - 
+  -
+- **Guide:** Specify actionable items with due dates or assigned responsibilities if needed.
+
+**Additional Observations:**
+- [ ] Include any other relevant notes or questions:
+  - 
+  -
+- **Guide:** Document any miscellaneous insights or follow-up suggestions that could benefit future reviews.
+
+---
+
+### Additional Resources
+
+For further guidance on best practices and repository management, please refer to the [Git Repositories Guide](guides/git-repositories.md).
+
+---
+
+Happy reviewing!

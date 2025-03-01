@@ -1,0 +1,57 @@
+{
+  ".s": {
+    "prefix": ".s",
+    "body": [
+      "- ${1:DESCRIPTION}",
+      "",
+      "```shell",
+      "${2:CONTENTS}",
+      "```",
+      "",
+      "> ${3:NOTES}"
+    ],
+    "description": "Cap10Bill: Simple shell block for content logging"
+  },
+  ".sh": {
+    "prefix": ".sh",
+    "body": [
+      "- ${1:DESCRIPTION}",
+      "",
+      "```shell",
+      "${2:CONTENTS}",
+      "```",
+      "",
+      "> ${3:NOTES}"
+    ],
+    "description": "Cap10Bill: Shell block with task/step description and content"
+  },
+  ".shm": {
+    "prefix": ".shm",
+    "body": [
+      "- ${1:DESCRIPTION}",
+      "",
+      "```shell",
+      "${2:CONTENTS}",
+      "```",
+      "",
+      "```shell",
+      "${3:ADDITIONAL_CONTENT}",
+      "```",
+      "",
+      "```shell",
+      "${4:MORE_CONTENT}",
+      "```",
+      "",
+      "```shell",
+      "${5:FURTHER_CONTENT}",
+      "```",
+      "",
+      "```shell",
+      "${6:FINAL_CONTENT}",
+      "```",
+      "",
+      "> ${7:NOTES}"
+    ],
+    "description": "Cap10Bill: Full logbooking template for markdown task/step logging with 5 shell blocks"
+  }
+}

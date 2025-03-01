@@ -1,0 +1,452 @@
+{
+  ".sh": {
+    "prefix": ".sh",
+    "body": [
+      "- ${1:DESCRIPTION}",
+      "",
+      "```shell",
+      "${2:CONTENTS}",
+      "```",
+      "",
+      "> ${3:NOTES}"
+    ],
+    "description": "Quick shell script log template"
+  },
+  ".py": {
+    "prefix": ".py",
+    "body": [
+      "- ${1:DESCRIPTION}",
+      "",
+      "```python",
+      "${2:CONTENTS}",
+      "```",
+      "",
+      "> ${3:NOTES}"
+    ],
+    "description": "Quick python log template"
+  },
+  ".table.1.1": {
+    "prefix": ".table.1.1",
+    "body": [
+      "|${1:HEADER1}|",
+      "|-------------|",
+      "|${2:VAL_1_1}|"
+    ],
+    "description": "Markdown Table (1x1)"
+  },
+  ".table.1.2": {
+    "prefix": ".table.1.2",
+    "body": [
+      "|${1:HEADER1}|",
+      "|-------------|",
+      "|${2:VAL_1_1}|",
+      "|${3:VAL_2_1}|"
+    ],
+    "description": "Markdown Table (1x2)"
+  },
+  ".table.1.3": {
+    "prefix": ".table.1.3",
+    "body": [
+      "|${1:HEADER1}|",
+      "|-------------|",
+      "|${2:VAL_1_1}|",
+      "|${3:VAL_2_1}|",
+      "|${4:VAL_3_1}|"
+    ],
+    "description": "Markdown Table (1x3)"
+  },
+  ".table.2.1": {
+    "prefix": ".table.2.1",
+    "body": [
+      "|${1:HEADER1}|${2:HEADER2}|",
+      "|-------------|-------------|",
+      "|${3:VAL_1_1}|${4:VAL_1_2}|"
+    ],
+    "description": "Markdown Table (2x1)"
+  },
+  ".table.2.2": {
+    "prefix": ".table.2.2",
+    "body": [
+      "|${1:HEADER1}|${2:HEADER2}|",
+      "|-------------|-------------|",
+      "|${3:VAL_1_1}|${4:VAL_1_2}|",
+      "|${5:VAL_2_1}|${6:VAL_2_2}|"
+    ],
+    "description": "Markdown Table (2x2)"
+  },
+  ".table.2.3": {
+    "prefix": ".table.2.3",
+    "body": [
+      "|${1:HEADER1}|${2:HEADER2}|",
+      "|-------------|-------------|",
+      "|${3:VAL_1_1}|${4:VAL_1_2}|",
+      "|${5:VAL_2_1}|${6:VAL_2_2}|",
+      "|${7:VAL_3_1}|${8:VAL_3_2}|"
+    ],
+    "description": "Markdown Table (2x3)"
+  },
+  ".table.3.1": {
+    "prefix": ".table.3.1",
+    "body": [
+      "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|",
+      "|-------------|-------------|-------------|",
+      "|${4:VAL_1_1}|${5:VAL_1_2}|${6:VAL_1_3}|"
+    ],
+    "description": "Markdown Table (3x1)"
+  },
+  ".table.3.2": {
+    "prefix": ".table.3.2",
+    "body": [
+      "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|",
+      "|-------------|-------------|-------------|",
+      "|${4:VAL_1_1}|${5:VAL_1_2}|${6:VAL_1_3}|",
+      "|${7:VAL_2_1}|${8:VAL_2_2}|${9:VAL_2_3}|"
+    ],
+    "description": "Markdown Table (3x2)"
+  },
+  ".table.3.3": {
+    "prefix": ".table.3.3",
+    "body": [
+      "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|",
+      "|-------------|-------------|-------------|",
+      "|${4:VAL_1_1}|${5:VAL_1_2}|${6:VAL_1_3}|",
+      "|${7:VAL_2_1}|${8:VAL_2_2}|${9:VAL_2_3}|",
+      "|${10:VAL_3_1}|${11:VAL_3_2}|${12:VAL_3_3}|"
+    ],
+    "description": "Markdown Table (3x3)"
+  },
+  ".table.4.1": {
+    "prefix": ".table.4.1",
+    "body": [
+      "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|",
+      "|-------------|-------------|-------------|-------------|",
+      "|${5:VAL_1_1}|${6:VAL_1_2}|${7:VAL_1_3}|${8:VAL_1_4}|"
+    ],
+    "description": "Markdown Table (4x1)"
+  },
+  ".table.4.2": {
+    "prefix": ".table.4.2",
+    "body": [
+      "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|",
+      "|-------------|-------------|-------------|-------------|",
+      "|${5:VAL_1_1}|${6:VAL_1_2}|${7:VAL_1_3}|${8:VAL_1_4}|",
+      "|${9:VAL_2_1}|${10:VAL_2_2}|${11:VAL_2_3}|${12:VAL_2_4}|"
+    ],
+    "description": "Markdown Table (4x2)"
+  },
+  ".table.4.3": {
+    "prefix": ".table.4.3",
+    "body": [
+      "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|",
+      "|-------------|-------------|-------------|-------------|",
+      "|${5:VAL_1_1}|${6:VAL_1_2}|${7:VAL_1_3}|${8:VAL_1_4}|",
+      "|${9:VAL_2_1}|${10:VAL_2_2}|${11:VAL_2_3}|${12:VAL_2_4}|",
+      "|${13:VAL_3_1}|${14:VAL_3_2}|${15:VAL_3_3}|${16:VAL_3_4}|"
+    ],
+    "description": "Markdown Table (4x3)"
+  },
+  ".table.5.1": {
+    "prefix": ".table.5.1",
+    "body": [
+      "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|",
+      "|-------------|-------------|-------------|-------------|-------------|",
+      "|${6:VAL_1_1}|${7:VAL_1_2}|${8:VAL_1_3}|${9:VAL_1_4}|${10:VAL_1_5}|"
+    ],
+    "description": "Markdown Table (5x1)"
+  },
+  ".table.5.2": {
+    "prefix": ".table.5.2",
+    "body": [
+      "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|",
+      "|-------------|-------------|-------------|-------------|-------------|",
+      "|${6:VAL_1_1}|${7:VAL_1_2}|${8:VAL_1_3}|${9:VAL_1_4}|${10:VAL_1_5}|",
+      "|${11:VAL_2_1}|${12:VAL_2_2}|${13:VAL_2_3}|${14:VAL_2_4}|${15:VAL_2_5}|"
+    ],
+    "description": "Markdown Table (5x2)"
+  },
+  ".table.5.3": {
+    "prefix": ".table.5.3",
+    "body": [
+      "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|",
+      "|-------------|-------------|-------------|-------------|-------------|",
+      "|${6:VAL_1_1}|${7:VAL_1_2}|${8:VAL_1_3}|${9:VAL_1_4}|${10:VAL_1_5}|",
+      "|${11:VAL_2_1}|${12:VAL_2_2}|${13:VAL_2_3}|${14:VAL_2_4}|${15:VAL_2_5}|",
+      "|${16:VAL_3_1}|${17:VAL_3_2}|${18:VAL_3_3}|${19:VAL_3_4}|${20:VAL_3_5}|"
+    ],
+    "description": "Markdown Table (5x3)"
+  },
+  ".table.6.1": {
+    "prefix": ".table.6.1",
+    "body": [
+      "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|${6:HEADER6}|",
+      "|-------------|-------------|-------------|-------------|-------------|-------------|",
+      "|${7:VAL_1_1}|${8:VAL_1_2}|${9:VAL_1_3}|${10:VAL_1_4}|${11:VAL_1_5}|${12:VAL_1_6}|"
+    ],
+    "description": "Markdown Table (6x1)"
+  },
+  ".table.6.2": {
+    "prefix": ".table.6.2",
+    "body": [
+      "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|${6:HEADER6}|",
+      "|-------------|-------------|-------------|-------------|-------------|-------------|",
+      "|${7:VAL_1_1}|${8:VAL_1_2}|${9:VAL_1_3}|${10:VAL_1_4}|${11:VAL_1_5}|${12:VAL_1_6}|",
+      "|${13:VAL_2_1}|${14:VAL_2_2}|${15:VAL_2_3}|${16:VAL_2_4}|${17:VAL_2_5}|${18:VAL_2_6}|"
+    ],
+    "description": "Markdown Table (6x2)"
+  },
+  ".table.6.3": {
+    "prefix": ".table.6.3",
+    "body": [
+      "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|${6:HEADER6}|",
+      "|-------------|-------------|-------------|-------------|-------------|-------------|",
+      "|${7:VAL_1_1}|${8:VAL_1_2}|${9:VAL_1_3}|${10:VAL_1_4}|${11:VAL_1_5}|${12:VAL_1_6}|",
+      "|${13:VAL_2_1}|${14:VAL_2_2}|${15:VAL_2_3}|${16:VAL_2_4}|${17:VAL_2_5}|${18:VAL_2_6}|",
+      "|${19:VAL_3_1}|${20:VAL_3_2}|${21:VAL_3_3}|${22:VAL_3_4}|${23:VAL_3_5}|${24:VAL_3_6}|"
+    ],
+    "description": "Markdown Table (6x3)"
+  },
+  ".table.7.1": {
+    "prefix": ".table.7.1",
+    "body": [
+      "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|${6:HEADER6}|${7:HEADER7}|",
+      "|-------------|-------------|-------------|-------------|-------------|-------------|-------------|",
+      "|${8:VAL_1_1}|${9:VAL_1_2}|${10:VAL_1_3}|${11:VAL_1_4}|${12:VAL_1_5}|${13:VAL_1_6}|${14:VAL_1_7}|"
+    ],
+    "description": "Markdown Table (7x1)"
+  },
+  ".table.7.2": {
+    "prefix": ".table.7.2",
+    "body": [
+      "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|${6:HEADER6}|${7:HEADER7}|",
+      "|-------------|-------------|-------------|-------------|-------------|-------------|-------------|",
+      "|${8:VAL_1_1}|${9:VAL_1_2}|${10:VAL_1_3}|${11:VAL_1_4}|${12:VAL_1_5}|${13:VAL_1_6}|${14:VAL_1_7}|",
+      "|${15:VAL_2_1}|${16:VAL_2_2}|${17:VAL_2_3}|${18:VAL_2_4}|${19:VAL_2_5}|${20:VAL_2_6}|${21:VAL_2_7}|"
+    ],
+    "description": "Markdown Table (7x2)"
+  },
+  ".table.7.3": {
+    "prefix": ".table.7.3",
+    "body": [
+      "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|${6:HEADER6}|${7:HEADER7}|",
+      "|-------------|-------------|-------------|-------------|-------------|-------------|-------------|",
+      "|${8:VAL_1_1}|${9:VAL_1_2}|${10:VAL_1_3}|${11:VAL_1_4}|${12:VAL_1_5}|${13:VAL_1_6}|${14:VAL_1_7}|",
+      "|${15:VAL_2_1}|${16:VAL_2_2}|${17:VAL_2_3}|${18:VAL_2_4}|${19:VAL_2_5}|${20:VAL_2_6}|${21:VAL_2_7}|",
+      "|${22:VAL_3_1}|${23:VAL_3_2}|${24:VAL_3_3}|${25:VAL_3_4}|${26:VAL_3_5}|${27:VAL_3_6}|${28:VAL_3_7}|"
+    ],
+    "description": "Markdown Table (7x3)"
+  },
+  ".table.8.1": {
+    "prefix": ".table.8.1",
+    "body": [
+      "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|${6:HEADER6}|${7:HEADER7}|${8:HEADER8}|",
+      "|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|",
+      "|${9:VAL_1_1}|${10:VAL_1_2}|${11:VAL_1_3}|${12:VAL_1_4}|${13:VAL_1_5}|${14:VAL_1_6}|${15:VAL_1_7}|${16:VAL_1_8}|"
+    ],
+    "description": "Markdown Table (8x1)"
+  },
+  ".table.8.2": {
+    "prefix": ".table.8.2",
+    "body": [
+      "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|${6:HEADER6}|${7:HEADER7}|${8:HEADER8}|",
+      "|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|",
+      "|${9:VAL_1_1}|${10:VAL_1_2}|${11:VAL_1_3}|${12:VAL_1_4}|${13:VAL_1_5}|${14:VAL_1_6}|${15:VAL_1_7}|${16:VAL_1_8}|",
+      "|${17:VAL_2_1}|${18:VAL_2_2}|${19:VAL_2_3}|${20:VAL_2_4}|${21:VAL_2_5}|${22:VAL_2_6}|${23:VAL_2_7}|${24:VAL_2_8}|"
+    ],
+    "description": "Markdown Table (8x2)"
+  },
+  ".table.8.3": {
+    "prefix": ".table.8.3",
+    "body": [
+      "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|${6:HEADER6}|${7:HEADER7}|${8:HEADER8}|",
+      "|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|",
+      "|${9:VAL_1_1}|${10:VAL_1_2}|${11:VAL_1_3}|${12:VAL_1_4}|${13:VAL_1_5}|${14:VAL_1_6}|${15:VAL_1_7}|${16:VAL_1_8}|",
+      "|${17:VAL_2_1}|${18:VAL_2_2}|${19:VAL_2_3}|${20:VAL_2_4}|${21:VAL_2_5}|${22:VAL_2_6}|${23:VAL_2_7}|${24:VAL_2_8}|",
+      "|${25:VAL_3_1}|${26:VAL_3_2}|${27:VAL_3_3}|${28:VAL_3_4}|${29:VAL_3_5}|${30:VAL_3_6}|${31:VAL_3_7}|${32:VAL_3_8}|"
+    ],
+    "description": "Markdown Table (8x3)"
+  },
+  ".logdev": {
+    "prefix": ".logdev",
+    "body": [
+      "# Debugging Log - ${1:PROJECT}",
+      "**Issue:** ${2:Application crashes on startup}",
+      "**Date:** ${3:date('yyyy-MM-dd')}",
+      "**Steps Taken:**",
+      "${4:- Checked error logs\n- Identified missing dependency}",
+      "**Resolution:** ${5:Installed missing package}"
+    ],
+    "description": "Software Development Log"
+  },
+  ".logit": {
+    "prefix": ".logit",
+    "body": [
+      "# Server Maintenance Log",
+      "**Date:** ${1:date('yyyy-MM-dd')}",
+      "**Server:** ${2:WebServer01}",
+      "**Actions Taken:**",
+      "${3:- Updated security patches\n- Restarted services\n- Verified connectivity}"
+    ],
+    "description": "IT Operations Log"
+  },
+  ".logmanu": {
+    "prefix": ".logmanu",
+    "body": [
+      "# Machine Performance Log",
+      "**Machine ID:** ${1:CNC-204}",
+      "**Date:** ${2:date('yyyy-MM-dd')}",
+      "**Observations:**",
+      "${3:- Temperature within normal range\n- Minor vibration detected}",
+      "**Next Steps:** ${4:Schedule preventive maintenance}"
+    ],
+    "description": "Manufacturing Log"
+  },
+  ".logkanban": {
+    "prefix": ".logkanban",
+    "body": [
+      "# Kanban Board Log - ${1:PROJECT}",
+      "**Task:** ${2:TASK}",
+      "**Status:** ${3:In Progress}",
+      "**Assignee:** ${4:ASSIGNEE}",
+      "**Date:** ${5:date('yyyy-MM-dd')}",
+      "**Notes:** ${6:NOTES}"
+    ],
+    "description": "Kanban Log"
+  },
+  ".logshift": {
+    "prefix": ".logshift",
+    "body": [
+      "# Shift Report - ${1:Morning}",
+      "**Date:** ${2:date('yyyy-MM-dd')}",
+      "**Supervisor:** ${3:SUPERVISOR}",
+      "**Issues:** ${4:ISSUES}",
+      "**Actions Taken:** ${5:ACTIONS}",
+      "**Comments:** ${6:COMMENTS}"
+    ],
+    "description": "Shift Report Log"
+  },
+  ".logpr": {
+    "prefix": ".logpr",
+    "body": [
+      "# Pull Request Checklist",
+      "",
+      "Please ensure you have addressed the following items before merging:",
+      "",
+      "- [${1:FUNCTIONALITY}] **Functionality:**",
+      "  - Verify that the changes solve the intended problem and work as expected.",
+      "- [${2:CORRECTNESS}] **Correctness:**",
+      "  - Check that edge cases and error conditions are handled appropriately.",
+      "- [${3:CODE_STYLE}] **Code Style:**",
+      "  - Confirm that the code adheres to the project's style guidelines and is properly formatted.",
+      "- [${4:READABILITY}] **Readability & Maintainability:**",
+      "  - Ensure that the code is clear, well-structured, and easy to understand for future maintenance.",
+      "- [${5:TESTING}] **Testing:**",
+      "  - Verify that sufficient unit/integration tests have been added or updated, and that all tests pass.",
+      "- [${6:DOCUMENTATION}] **Documentation:**",
+      "  - Confirm that new features or APIs are well-documented (including inline comments and external documentation if needed).",
+      "- [${7:COMMENTS}] **Comments:**",
+      "  - Check that complex or non-obvious sections of code include clear, helpful comments.",
+      "- [${8:ERROR_HANDLING}] **Error Handling:**",
+      "  - Ensure that error conditions are handled gracefully with informative error messages.",
+      "- [${9:PERFORMANCE}] **Performance:**",
+      "  - Review changes for potential performance issues or bottlenecks.",
+      "- [${10:SECURITY}] **Security:**",
+      "  - Check that the changes do not introduce security vulnerabilities or expose sensitive data.",
+      "- [${11:DEPENDENCIES}] **Dependencies:**",
+      "  - Assess whether any new dependencies are necessary and verify that they are compatible with the project.",
+      "- [${12:BACKWARD_COMPATIBILITY}] **Backward Compatibility:**",
+      "  - Ensure that the changes do not break existing functionality or violate API contracts.",
+      "- [${13:COMMIT_QUALITY}] **Commit Quality:**",
+      "  - Verify that commit messages are clear, descriptive, and logically grouped.",
+      "- [${14:CODE_DUPLICATION}] **Code Duplication:**",
+      "  - Confirm that redundant or duplicated code has been minimized or refactored.",
+      "- [${15:PEER_FEEDBACK}] **Peer Feedback:**",
+      "  - Ensure that the pull request addresses all review comments and suggestions from your peers.",
+      "",
+      "Additional Comments/Notes:",
+      "- ${16:ADDITIONAL}"
+    ],
+    "description": "Pull Request Checklist with Interactive Checkboxes"
+  },
+  ".logsupport": {
+    "prefix": ".logsupport",
+    "body": [
+      "# Customer Support Log - ${1:CUSTOMER}",
+      "**Date:** ${2:date('yyyy-MM-dd')}",
+      "**Issue Reported:** ${3:ISSUE}",
+      "**Support Agent:** ${4:AGENT}",
+      "**Resolution:** ${5:RESOLUTION}",
+      "**Follow-up:** ${6:FOLLOW_UP}"
+    ],
+    "description": "Customer Support Log"
+  },
+  ".logretro": {
+    "prefix": ".logretro",
+    "body": [
+      "# Project Retrospective - ${1:PROJECT}",
+      "**Date:** ${2:date('yyyy-MM-dd')}",
+      "**What Went Well:** ${3:WENT_WELL}",
+      "**Challenges:** ${4:CHALLENGES}",
+      "**Action Items:** ${5:ACTION_ITEMS}",
+      "**Overall Rating:** ${6:RATING}"
+    ],
+    "description": "Project Retrospective Log"
+  },
+  ".logincident": {
+    "prefix": ".logincident",
+    "body": [
+      "# Incident Response Log - ${1:INCIDENT_ID}",
+      "**Date:** ${2:date('yyyy-MM-dd')}",
+      "**Impact:** ${3:IMPACT}",
+      "**Cause:** ${4:CAUSE}",
+      "**Actions Taken:** ${5:ACTIONS}",
+      "**Resolution:** ${6:RESOLUTION}"
+    ],
+    "description": "Incident Response Log"
+  },
+  ".logqa": {
+    "prefix": ".logqa",
+    "body": [
+      "# QA Report - ${1:PROJECT}",
+      "**Date:** ${2:date('yyyy-MM-dd')}",
+      "**Tested By:** ${3:TESTER}",
+      "**Issues Found:** ${4:ISSUES}",
+      "**Recommendations:** ${5:RECOMMENDATIONS}"
+    ],
+    "description": "Quality Assurance Log"
+  },
+  ".logsales": {
+    "prefix": ".logsales",
+    "body": [
+      "# Sales Call Log - ${1:CLIENT}",
+      "**Date:** ${2:date('yyyy-MM-dd')}",
+      "**Sales Rep:** ${3:SALES_REP}",
+      "**Discussion Points:** ${4:DISCUSSION}",
+      "**Next Steps:** ${5:NEXT_STEPS}"
+    ],
+    "description": "Sales Call Log"
+  },
+  ".logfinance": {
+    "prefix": ".logfinance",
+    "body": [
+      "# Financial Transaction Log - ${1:TRANSACTION_ID}",
+      "**Date:** ${2:date('yyyy-MM-dd')}",
+      "**Amount:** ${3:AMOUNT}",
+      "**Type:** ${4:TYPE}",
+      "**Account:** ${5:ACCOUNT}",
+      "**Notes:** ${6:NOTES}"
+    ],
+    "description": "Financial Transaction Log"
+  },
+  ".logmarketing": {
+    "prefix": ".logmarketing",
+    "body": [
+      "# Marketing Campaign Log - ${1:CAMPAIGN}",
+      "**Date:** ${2:date('yyyy-MM-dd')}",
+      "**Channel:** ${3:CHANNEL}",
+      "**Objective:** ${4:OBJECTIVE}",
+      "**Results:** ${5:RESULTS}",
+      "**Next Steps:** ${6:NEXT_STEPS}"
+    ],
+    "description": "Marketing Campaign Log"
+  }
+}
