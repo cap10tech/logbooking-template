@@ -88,7 +88,7 @@ The repository is organized into clear sections to help you quickly set up and s
 
 ---
 
-## Guide Directory
+### Guide Directory
 
 #### Logbooking Guild: Your Path to Operational Mastery
 
