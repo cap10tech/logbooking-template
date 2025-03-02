@@ -1,5 +1,6 @@
 Every day, you’re challenged with high stakes—critical decisions, rapid troubleshooting, and the pressure to execute flawlessly. Missing even a small detail can cause a cascade of issues. That’s where your process comes in—a systematic, motivational approach that transforms chaos into clarity.
 
+![img.png](lost-details.png)
 ### The Pain Point: A World of Overlooked Details
 Imagine the anxiety when a forgotten command or misremembered step leads to downtime or costly errors. That lingering stress isn’t just frustrating—it’s a barrier to unleashing your true potential. The fear of forgetting the intricate details of your work holds you back from confidently taking bold, innovative actions.
 
@@ -22,6 +23,9 @@ Your process isn’t merely about logging data; it’s a powerful mindset shift 
    Every entry you make is a milestone in your professional journey. Over time, this archive becomes a rich repository of insights and best practices, empowering you and your team to learn from past experiences, avoid recurring mistakes, and push the boundaries of what’s possible. It’s a legacy that continuously fuels improvement and operational excellence.
 
 ### The Benefits: A Guarantee of Transformation
+
+![img.png](img.png)
+
 By committing to this process, you’re not just preventing mistakes—you’re unlocking a future of operational mastery and exponential growth. Here’s what you gain:
 
 - **Eliminate the Fear of Forgetting:** With every detail documented, you can take decisive action without the nagging worry of oversight.

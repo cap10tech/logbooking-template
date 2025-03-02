@@ -3,6 +3,7 @@
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/cap10tech/logbooking-template)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
+![cap10-tech-digital-seas.png](cap10-tech-digital-seas.png)
 
 ## Don't Get Left Behind: Logbooking Your Way to Success
 **The Secret to Learning, Retaining, and Growing Faster**
@@ -91,6 +92,7 @@ The repository is organized into clear sections to help you quickly set up and s
 ### Guide Directory
 
 #### Logbooking Guild: Your Path to Operational Mastery
+
 
 Discover how capturing every detail in real time, building a dynamic playbook, and leveraging automation can revolutionize your operations. This guide explains a powerful process to document your actions, eliminate mistakes, and build a legacy of continuous improvement.
 
