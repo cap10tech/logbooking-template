@@ -93,6 +93,7 @@ The repository is organized into clear sections to help you quickly set up and s
 
 #### Logbooking Guild: Your Path to Operational Mastery
 
+> Look for tools from [cap10.tech](http://cap10.tech)
 
 Discover how capturing every detail in real time, building a dynamic playbook, and leveraging automation can revolutionize your operations. This guide explains a powerful process to document your actions, eliminate mistakes, and build a legacy of continuous improvement.
 
@@ -210,9 +211,11 @@ Each version guides you through creating your own repository from the template, 
 ## Future Enhancements
 
 We’re continually improving the logbooking system. Upcoming features include:
-- Fully automated log generation scripts.
-- Integration with additional IDEs and code editors.
-- Enhanced search capabilities and visualization tools to track your progress.
+- New Templates and best practices
+- New Automation
+- New Guides
+
+> Look for more at [cap10.tech](http://cap10.tech) ..
 
 ---
 
