@@ -1,0 +1,105 @@
+TITLE: $TITLE  
+LOGBOOK_ENTRY_FILENAME: $LOGBOOK_ENTRY_FILENAME
+
+## Decision Log Entry
+
+### Decision Overview
+- **Decision Title:**
+  - [ ] Enter the name of the decision.
+    - 
+- **Date of Decision:**
+  - [ ] Enter the date.
+    - 
+- **Decision Maker(s):**
+  - [ ] List names of individuals or teams making the decision.
+    - 
+- **Context & Background:**
+  - [ ] Describe the situation or problem leading to the decision.
+    - 
+  - **Guide:** Include relevant history, challenges, or project context.
+
+---
+
+### Options Considered
+- **Option 1:**
+  - [ ] Describe the first option.
+    - 
+- **Option 2:**
+  - [ ] Describe the second option.
+    - 
+- **Additional Options:**
+  - [ ] List any other alternatives considered.
+    - 
+- **Pros & Cons:**
+  - [ ] Summarize advantages and disadvantages for each option.
+    - 
+  - **Guide:** Use bullet points or tables for clarity.
+
+---
+
+### Decision Details
+- **Chosen Option:**
+  - [ ] Specify which option was selected and why.
+    - 
+- **Rationale:**
+  - [ ] Explain the reasoning behind the decision.
+    - 
+  - **Guide:** Reference goals, constraints, and stakeholder input.
+- **Stakeholder Input:**
+  - [ ] Document feedback or concerns from stakeholders.
+    - 
+- **Approval Status:**
+  - [ ] Track approval and any required sign-offs.
+    - 
+
+---
+
+### Impact & Implementation
+- **Expected Impact:**
+  - [ ] Describe anticipated outcomes and benefits.
+    - 
+- **Risks & Mitigation:**
+  - [ ] List potential risks and how they will be managed.
+    - 
+- **Action Items:**
+  - [ ] Outline steps to implement the decision, responsible parties, and deadlines.
+    - 
+- **Follow-Up Plan:**
+  - [ ] Note any monitoring or review steps post-implementation.
+    - 
+
+---
+
+### Lessons Learned & Reflections
+- **Lessons Learned:**
+  - [ ] Summarize insights from the decision-making process.
+    - 
+- **Reflections:**
+  - [ ] Record any additional thoughts or observations.
+    - 
+- **Recommendations for Future Decisions:**
+  - [ ] Suggest improvements for future decision logs or processes.
+    - 
+
+---
+
+### Best Practices for Decision Logs
+1. **Document All Options:**
+   - Clearly record all alternatives considered and their pros/cons.
+2. **Rationale & Stakeholder Input:**
+   - Provide detailed reasoning and capture stakeholder feedback.
+3. **Actionable Implementation:**
+   - List clear action items and follow-up plans.
+4. **Continuous Improvement:**
+   - Reflect on lessons learned and update decision-making processes.
+5. **Consistent Formatting:**
+   - Use structured sections, checklists, and tables for clarity.
+
+---
+
+For further guidance, see the [Decision Log Guide](guides/decision-log.md).
+
+---
+
+Make decisions with confidence and clarity!
+

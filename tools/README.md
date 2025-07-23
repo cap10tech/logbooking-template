@@ -15,9 +15,11 @@ Our template set is divided into three main groups:
 | **Shortcut** | **Description**                               | **Example Usage** |
 |--------------|-----------------------------------------------|-------------------|
 | `.sh`        | **Quick Shell Script Log Template** – Capture a shell command along with a brief description and notes. | <pre>- System Update Log  
+
 ```shell
 sudo apt-get update && sudo apt-get upgrade
 ```  
+
 > Updated packages and applied security patches.
 </pre> |
 | `.py`        | **Quick Python Log Template** – Document Python code snippets and debugging sessions. | <pre>- API Debugging Log  

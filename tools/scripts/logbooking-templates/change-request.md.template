@@ -1,0 +1,115 @@
+TITLE: $TITLE  
+LOGBOOK_ENTRY_FILENAME: $LOGBOOK_ENTRY_FILENAME
+
+## Change Request Log Entry
+
+### Overview & Purpose
+- **Change Request Title:**
+  - [ ] Enter the title of the change request.
+    - 
+- **Date Submitted:**
+  - [ ] Enter the date.
+    - 
+- **Requestor:**
+  - [ ] Name of person/team submitting the request.
+    - 
+- **Related Project/Process:**
+  - [ ] Specify the project or process affected.
+    - 
+- **Purpose & Rationale:**
+  - [ ] Describe why this change is needed.
+    - 
+  - **Guide:** Explain the business, technical, or compliance reasons for the change.
+
+---
+
+### Change Details
+- **Description of Change:**
+  - [ ] Summarize the proposed change.
+    - 
+  - **Guide:** Include technical details, scope, and expected impact.
+- **Affected Systems/Components:**
+  - [ ] List all systems, modules, or teams impacted.
+    - 
+- **Priority & Urgency:**
+  - [ ] Indicate priority (High/Medium/Low) and urgency.
+    - 
+- **Dependencies & Prerequisites:**
+  - [ ] Note any dependencies, prerequisites, or related changes.
+    - 
+
+---
+
+### Risk Assessment & Impact Analysis
+- **Risks Identified:**
+  - [ ] List potential risks or negative impacts.
+    - 
+  - **Guide:** Consider technical, operational, and business risks.
+- **Mitigation Strategies:**
+  - [ ] Describe how risks will be managed or mitigated.
+    - 
+- **Impact Analysis:**
+  - [ ] Summarize expected benefits and possible drawbacks.
+    - 
+
+---
+
+### Implementation Plan
+- **Steps to Implement:**
+  - [ ] Outline the implementation plan, including key milestones.
+    - 
+- **Resources Required:**
+  - [ ] List personnel, tools, or budget needed.
+    - 
+- **Timeline:**
+  - [ ] Provide estimated start and completion dates.
+    - 
+- **Testing & Validation:**
+  - [ ] Describe how the change will be tested and validated.
+    - 
+
+---
+
+### Approval & Review
+- **Stakeholders for Review:**
+  - [ ] List stakeholders who must review/approve the change.
+    - 
+- **Approval Status:**
+  - [ ] Track approval status and comments.
+    - 
+- **Review Notes:**
+  - [ ] Capture feedback, concerns, or required revisions.
+    - 
+
+---
+
+### Lessons Learned & Follow-Up
+- **Lessons Learned:**
+  - [ ] Summarize insights from the change request process.
+    - 
+- **Follow-Up Actions:**
+  - [ ] List any additional steps, monitoring, or future changes required.
+    - 
+
+---
+
+### Best Practices for Change Requests
+1. **Clear Documentation:**
+   - Use structured sections and checklists for all required details.
+2. **Risk Awareness:**
+   - Always assess and document risks and mitigation strategies.
+3. **Stakeholder Engagement:**
+   - Involve all relevant parties early and track feedback.
+4. **Actionable Plans:**
+   - Provide clear, actionable steps and timelines.
+5. **Continuous Improvement:**
+   - Reflect on lessons learned and update processes as needed.
+
+---
+
+For further guidance, see the [Change Management Guide](guides/change-management.md).
+
+---
+
+Happy change requesting!
+

@@ -1,0 +1,96 @@
+TITLE: $TITLE  
+LOGBOOK_ENTRY_FILENAME: $LOGBOOK_ENTRY_FILENAME
+
+## Process Retrospective Log Entry
+
+### Retrospective Overview
+- **Retrospective Title:**
+  - [ ] Enter the name or focus of the retrospective.
+    - 
+- **Date Conducted:**
+  - [ ] Enter the date.
+    - 
+- **Facilitator:**
+  - [ ] Name the person leading the retrospective.
+    - 
+- **Team/Participants:**
+  - [ ] List all attendees.
+    - 
+- **Process/Project Reviewed:**
+  - [ ] Specify the process, sprint, or project under review.
+    - 
+- **Purpose & Goals:**
+  - [ ] Summarize the objectives of the retrospective.
+    - 
+  - **Guide:** Clarify what you hope to learn or improve.
+
+---
+
+### Review & Reflection
+- **What Went Well:**
+  - [ ] List successes, strengths, and positive outcomes.
+    - 
+- **What Could Be Improved:**
+  - [ ] Identify challenges, bottlenecks, or areas for improvement.
+    - 
+- **Unexpected Issues:**
+  - [ ] Note any surprises or unplanned events.
+    - 
+- **Key Insights:**
+  - [ ] Summarize important lessons or takeaways.
+    - 
+
+---
+
+### Action Items & Next Steps
+- **Improvement Actions:**
+  - [ ] List actionable steps to address issues or enhance processes.
+    - 
+- **Responsible Parties:**
+  - [ ] Assign owners for each action item.
+    - 
+- **Timeline:**
+  - [ ] Set deadlines for follow-up or review.
+    - 
+- **Monitoring Plan:**
+  - [ ] Describe how progress will be tracked and reported.
+    - 
+
+---
+
+### Follow-Up & Continuous Improvement
+- **Follow-Up Plan:**
+  - [ ] Outline steps for future retrospectives or ongoing improvement.
+    - 
+- **Lessons Learned:**
+  - [ ] Summarize insights gained from the retrospective process itself.
+    - 
+- **Best Practices Identified:**
+  - [ ] Document effective strategies or processes.
+    - 
+- **Recommendations for Future Retrospectives:**
+  - [ ] Suggest improvements for future sessions.
+    - 
+
+---
+
+### Best Practices for Retrospectives
+1. **Open Communication:**
+   - Foster a safe environment for honest feedback.
+2. **Action-Oriented:**
+   - Focus on actionable improvements and assign clear responsibilities.
+3. **Continuous Review:**
+   - Regularly revisit action items and update processes.
+4. **Structured Documentation:**
+   - Use clear sections and checklists for thorough records.
+5. **Reflect & Adapt:**
+   - Use lessons learned to refine future retrospectives.
+
+---
+
+For further guidance, see the [Retrospective Guide](guides/process-retrospective.md).
+
+---
+
+Reflect, improve, and grow together!
+

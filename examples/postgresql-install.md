@@ -82,5 +82,5 @@ FATAL: password authentication failed for user "appuser"
 [2025-02-27T14:23:11.008Z] INFO: Retrying connection in 5000ms...
 ```
 
-> **I wonder if** the issue stems from a misconfiguration in your environment variables—double-check that the `DB_PASSWORD` matches the password set during the schema creation (i.e., "appsecret").
+> **I wonder if** the issue stems from a misconfiguration in your environment variables, double-check that the `DB_PASSWORD` matches the password set during the schema creation (i.e., "appsecret").
 

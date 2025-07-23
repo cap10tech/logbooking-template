@@ -1,5 +1,5 @@
 <templateSet group="Cap10Bill Logbooking Templates">
-    <template name=".s" value="- $DESCRIPTION$&#10;&#10;```shell&#10;$CONTENTS$&#10;```&#10;&#10;&gt; $NOTES$" description="Cap10Bill: Simple shell block for content logging" toReformat="false" toShortenFQNames="false">
+    <template name="..s" value="- $DESCRIPTION$&#10;&#10;```shell&#10;$CONTENTS$&#10;```&#10;&#10;&gt; $NOTES$" description="Cap10Bill: Simple shell block for content logging" toReformat="false" toShortenFQNames="false">
         <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
         <variable name="CONTENTS" expression="" defaultValue="" alwaysStopAt="true" />
         <variable name="NOTES" expression="" defaultValue="" alwaysStopAt="true" />
@@ -18,7 +18,7 @@
             <option name="XML" value="false" />
         </context>
     </template>
-    <template name=".sh" value="- $DESCRIPTION$&#10;&#10;```shell&#10;$CONTENTS$&#10;```&#10;&#10;&gt; $NOTES$" description="Cap10Bill: Shell block with task/step description and content" toReformat="false" toShortenFQNames="false">
+    <template name="..sh" value="- $DESCRIPTION$&#10;&#10;```shell&#10;$CONTENTS$&#10;```&#10;&#10;&gt; $NOTES$" description="Cap10Bill: Shell block with task/step description and content" toReformat="false" toShortenFQNames="false">
         <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
         <variable name="CONTENTS" expression="" defaultValue="" alwaysStopAt="true" />
         <variable name="NOTES" expression="" defaultValue="" alwaysStopAt="true" />
@@ -37,7 +37,7 @@
             <option name="XML" value="false" />
         </context>
     </template>
-    <template name=".shm" value="- $DESCRIPTION$&#10;&#10;```shell&#10;$CONTENTS$&#10;```&#10;&#10;```shell&#10;$ADDITIONAL_CONTENT$&#10;```&#10;&#10;```shell&#10;$MORE_CONTENT$&#10;```&#10;&#10;```shell&#10;$FURTHER_CONTENT$&#10;```&#10;&#10;```shell&#10;$FINAL_CONTENT$&#10;```&#10;&#10;&gt; $NOTES$" description="Cap10Bill: Full logbooking template for markdown task/step logging with 5 shell blocks" toReformat="false" toShortenFQNames="false">
+    <template name="..shm" value="- $DESCRIPTION$&#10;&#10;```shell&#10;$CONTENTS$&#10;```&#10;&#10;```shell&#10;$ADDITIONAL_CONTENT$&#10;```&#10;&#10;```shell&#10;$MORE_CONTENT$&#10;```&#10;&#10;```shell&#10;$FURTHER_CONTENT$&#10;```&#10;&#10;```shell&#10;$FINAL_CONTENT$&#10;```&#10;&#10;&gt; $NOTES$" description="Cap10Bill: Full logbooking template for markdown task/step logging with 5 shell blocks" toReformat="false" toShortenFQNames="false">
         <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
         <variable name="CONTENTS" expression="" defaultValue="" alwaysStopAt="true" />
         <variable name="ADDITIONAL_CONTENT" expression="" defaultValue="" alwaysStopAt="true" />

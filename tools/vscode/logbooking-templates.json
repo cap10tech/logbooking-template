@@ -1,6 +1,6 @@
 {
-  ".sh": {
-    "prefix": ".sh",
+  "..sh": {
+    "prefix": "..sh",
     "body": [
       "- ${1:DESCRIPTION}",
       "",
@@ -12,8 +12,8 @@
     ],
     "description": "Quick shell script log template"
   },
-  ".py": {
-    "prefix": ".py",
+  "..py": {
+    "prefix": "..py",
     "body": [
       "- ${1:DESCRIPTION}",
       "",
@@ -25,8 +25,8 @@
     ],
     "description": "Quick python log template"
   },
-  ".table.1.1": {
-    "prefix": ".table.1.1",
+  "..table.1.1": {
+    "prefix": "..table.1.1",
     "body": [
       "|${1:HEADER1}|",
       "|-------------|",
@@ -34,8 +34,8 @@
     ],
     "description": "Markdown Table (1x1)"
   },
-  ".table.1.2": {
-    "prefix": ".table.1.2",
+  "..table.1.2": {
+    "prefix": "..table.1.2",
     "body": [
       "|${1:HEADER1}|",
       "|-------------|",
@@ -44,8 +44,8 @@
     ],
     "description": "Markdown Table (1x2)"
   },
-  ".table.1.3": {
-    "prefix": ".table.1.3",
+  "..table.1.3": {
+    "prefix": "..table.1.3",
     "body": [
       "|${1:HEADER1}|",
       "|-------------|",
@@ -55,8 +55,8 @@
     ],
     "description": "Markdown Table (1x3)"
   },
-  ".table.2.1": {
-    "prefix": ".table.2.1",
+  "..table.2.1": {
+    "prefix": "..table.2.1",
     "body": [
       "|${1:HEADER1}|${2:HEADER2}|",
       "|-------------|-------------|",
@@ -64,8 +64,8 @@
     ],
     "description": "Markdown Table (2x1)"
   },
-  ".table.2.2": {
-    "prefix": ".table.2.2",
+  "..table.2.2": {
+    "prefix": "..table.2.2",
     "body": [
       "|${1:HEADER1}|${2:HEADER2}|",
       "|-------------|-------------|",
@@ -74,8 +74,8 @@
     ],
     "description": "Markdown Table (2x2)"
   },
-  ".table.2.3": {
-    "prefix": ".table.2.3",
+  "..table.2.3": {
+    "prefix": "..table.2.3",
     "body": [
       "|${1:HEADER1}|${2:HEADER2}|",
       "|-------------|-------------|",
@@ -85,8 +85,8 @@
     ],
     "description": "Markdown Table (2x3)"
   },
-  ".table.3.1": {
-    "prefix": ".table.3.1",
+  "..table.3.1": {
+    "prefix": "..table.3.1",
     "body": [
       "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|",
       "|-------------|-------------|-------------|",
@@ -94,8 +94,8 @@
     ],
     "description": "Markdown Table (3x1)"
   },
-  ".table.3.2": {
-    "prefix": ".table.3.2",
+  "..table.3.2": {
+    "prefix": "..table.3.2",
     "body": [
       "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|",
       "|-------------|-------------|-------------|",
@@ -104,8 +104,8 @@
     ],
     "description": "Markdown Table (3x2)"
   },
-  ".table.3.3": {
-    "prefix": ".table.3.3",
+  "..table.3.3": {
+    "prefix": "..table.3.3",
     "body": [
       "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|",
       "|-------------|-------------|-------------|",
@@ -115,8 +115,8 @@
     ],
     "description": "Markdown Table (3x3)"
   },
-  ".table.4.1": {
-    "prefix": ".table.4.1",
+  "..table.4.1": {
+    "prefix": "..table.4.1",
     "body": [
       "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|",
       "|-------------|-------------|-------------|-------------|",
@@ -124,8 +124,8 @@
     ],
     "description": "Markdown Table (4x1)"
   },
-  ".table.4.2": {
-    "prefix": ".table.4.2",
+  "..table.4.2": {
+    "prefix": "..table.4.2",
     "body": [
       "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|",
       "|-------------|-------------|-------------|-------------|",
@@ -134,8 +134,8 @@
     ],
     "description": "Markdown Table (4x2)"
   },
-  ".table.4.3": {
-    "prefix": ".table.4.3",
+  "..table.4.3": {
+    "prefix": "..table.4.3",
     "body": [
       "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|",
       "|-------------|-------------|-------------|-------------|",
@@ -145,8 +145,8 @@
     ],
     "description": "Markdown Table (4x3)"
   },
-  ".table.5.1": {
-    "prefix": ".table.5.1",
+  "..table.5.1": {
+    "prefix": "..table.5.1",
     "body": [
       "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|",
       "|-------------|-------------|-------------|-------------|-------------|",
@@ -154,8 +154,8 @@
     ],
     "description": "Markdown Table (5x1)"
   },
-  ".table.5.2": {
-    "prefix": ".table.5.2",
+  "..table.5.2": {
+    "prefix": "..table.5.2",
     "body": [
       "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|",
       "|-------------|-------------|-------------|-------------|-------------|",
@@ -164,8 +164,8 @@
     ],
     "description": "Markdown Table (5x2)"
   },
-  ".table.5.3": {
-    "prefix": ".table.5.3",
+  "..table.5.3": {
+    "prefix": "..table.5.3",
     "body": [
       "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|",
       "|-------------|-------------|-------------|-------------|-------------|",
@@ -175,8 +175,8 @@
     ],
     "description": "Markdown Table (5x3)"
   },
-  ".table.6.1": {
-    "prefix": ".table.6.1",
+  "..table.6.1": {
+    "prefix": "..table.6.1",
     "body": [
       "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|${6:HEADER6}|",
       "|-------------|-------------|-------------|-------------|-------------|-------------|",
@@ -184,8 +184,8 @@
     ],
     "description": "Markdown Table (6x1)"
   },
-  ".table.6.2": {
-    "prefix": ".table.6.2",
+  "..table.6.2": {
+    "prefix": "..table.6.2",
     "body": [
       "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|${6:HEADER6}|",
       "|-------------|-------------|-------------|-------------|-------------|-------------|",
@@ -194,8 +194,8 @@
     ],
     "description": "Markdown Table (6x2)"
   },
-  ".table.6.3": {
-    "prefix": ".table.6.3",
+  "..table.6.3": {
+    "prefix": "..table.6.3",
     "body": [
       "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|${6:HEADER6}|",
       "|-------------|-------------|-------------|-------------|-------------|-------------|",
@@ -205,8 +205,8 @@
     ],
     "description": "Markdown Table (6x3)"
   },
-  ".table.7.1": {
-    "prefix": ".table.7.1",
+  "..table.7.1": {
+    "prefix": "..table.7.1",
     "body": [
       "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|${6:HEADER6}|${7:HEADER7}|",
       "|-------------|-------------|-------------|-------------|-------------|-------------|-------------|",
@@ -214,8 +214,8 @@
     ],
     "description": "Markdown Table (7x1)"
   },
-  ".table.7.2": {
-    "prefix": ".table.7.2",
+  "..table.7.2": {
+    "prefix": "..table.7.2",
     "body": [
       "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|${6:HEADER6}|${7:HEADER7}|",
       "|-------------|-------------|-------------|-------------|-------------|-------------|-------------|",
@@ -224,8 +224,8 @@
     ],
     "description": "Markdown Table (7x2)"
   },
-  ".table.7.3": {
-    "prefix": ".table.7.3",
+  "..table.7.3": {
+    "prefix": "..table.7.3",
     "body": [
       "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|${6:HEADER6}|${7:HEADER7}|",
       "|-------------|-------------|-------------|-------------|-------------|-------------|-------------|",
@@ -235,8 +235,8 @@
     ],
     "description": "Markdown Table (7x3)"
   },
-  ".table.8.1": {
-    "prefix": ".table.8.1",
+  "..table.8.1": {
+    "prefix": "..table.8.1",
     "body": [
       "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|${6:HEADER6}|${7:HEADER7}|${8:HEADER8}|",
       "|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|",
@@ -244,8 +244,8 @@
     ],
     "description": "Markdown Table (8x1)"
   },
-  ".table.8.2": {
-    "prefix": ".table.8.2",
+  "..table.8.2": {
+    "prefix": "..table.8.2",
     "body": [
       "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|${6:HEADER6}|${7:HEADER7}|${8:HEADER8}|",
       "|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|",
@@ -254,8 +254,8 @@
     ],
     "description": "Markdown Table (8x2)"
   },
-  ".table.8.3": {
-    "prefix": ".table.8.3",
+  "..table.8.3": {
+    "prefix": "..table.8.3",
     "body": [
       "|${1:HEADER1}|${2:HEADER2}|${3:HEADER3}|${4:HEADER4}|${5:HEADER5}|${6:HEADER6}|${7:HEADER7}|${8:HEADER8}|",
       "|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|",
@@ -265,8 +265,8 @@
     ],
     "description": "Markdown Table (8x3)"
   },
-  ".logdev": {
-    "prefix": ".logdev",
+  "..logdev": {
+    "prefix": "..logdev",
     "body": [
       "# Debugging Log - ${1:PROJECT}",
       "**Issue:** ${2:Application crashes on startup}",
@@ -277,8 +277,8 @@
     ],
     "description": "Software Development Log"
   },
-  ".logit": {
-    "prefix": ".logit",
+  "..logit": {
+    "prefix": "..logit",
     "body": [
       "# Server Maintenance Log",
       "**Date:** ${1:date('yyyy-MM-dd')}",
@@ -288,8 +288,8 @@
     ],
     "description": "IT Operations Log"
   },
-  ".logmanu": {
-    "prefix": ".logmanu",
+  "..logmanu": {
+    "prefix": "..logmanu",
     "body": [
       "# Machine Performance Log",
       "**Machine ID:** ${1:CNC-204}",
@@ -300,8 +300,8 @@
     ],
     "description": "Manufacturing Log"
   },
-  ".logkanban": {
-    "prefix": ".logkanban",
+  "..logkanban": {
+    "prefix": "..logkanban",
     "body": [
       "# Kanban Board Log - ${1:PROJECT}",
       "**Task:** ${2:TASK}",
@@ -312,8 +312,8 @@
     ],
     "description": "Kanban Log"
   },
-  ".logshift": {
-    "prefix": ".logshift",
+  "..logshift": {
+    "prefix": "..logshift",
     "body": [
       "# Shift Report - ${1:Morning}",
       "**Date:** ${2:date('yyyy-MM-dd')}",
@@ -324,8 +324,8 @@
     ],
     "description": "Shift Report Log"
   },
-  ".logpr": {
-    "prefix": ".logpr",
+  "..logpr": {
+    "prefix": "..logpr",
     "body": [
       "# Pull Request Checklist",
       "",
@@ -367,8 +367,8 @@
     ],
     "description": "Pull Request Checklist with Interactive Checkboxes"
   },
-  ".logsupport": {
-    "prefix": ".logsupport",
+  "..logsupport": {
+    "prefix": "..logsupport",
     "body": [
       "# Customer Support Log - ${1:CUSTOMER}",
       "**Date:** ${2:date('yyyy-MM-dd')}",
@@ -379,8 +379,8 @@
     ],
     "description": "Customer Support Log"
   },
-  ".logretro": {
-    "prefix": ".logretro",
+  "..logretro": {
+    "prefix": "..logretro",
     "body": [
       "# Project Retrospective - ${1:PROJECT}",
       "**Date:** ${2:date('yyyy-MM-dd')}",
@@ -391,8 +391,8 @@
     ],
     "description": "Project Retrospective Log"
   },
-  ".logincident": {
-    "prefix": ".logincident",
+  "..logincident": {
+    "prefix": "..logincident",
     "body": [
       "# Incident Response Log - ${1:INCIDENT_ID}",
       "**Date:** ${2:date('yyyy-MM-dd')}",
@@ -403,8 +403,8 @@
     ],
     "description": "Incident Response Log"
   },
-  ".logqa": {
-    "prefix": ".logqa",
+  "..logqa": {
+    "prefix": "..logqa",
     "body": [
       "# QA Report - ${1:PROJECT}",
       "**Date:** ${2:date('yyyy-MM-dd')}",
@@ -414,8 +414,8 @@
     ],
     "description": "Quality Assurance Log"
   },
-  ".logsales": {
-    "prefix": ".logsales",
+  "..logsales": {
+    "prefix": "..logsales",
     "body": [
       "# Sales Call Log - ${1:CLIENT}",
       "**Date:** ${2:date('yyyy-MM-dd')}",
@@ -425,8 +425,8 @@
     ],
     "description": "Sales Call Log"
   },
-  ".logfinance": {
-    "prefix": ".logfinance",
+  "..logfinance": {
+    "prefix": "..logfinance",
     "body": [
       "# Financial Transaction Log - ${1:TRANSACTION_ID}",
       "**Date:** ${2:date('yyyy-MM-dd')}",
@@ -437,8 +437,8 @@
     ],
     "description": "Financial Transaction Log"
   },
-  ".logmarketing": {
-    "prefix": ".logmarketing",
+  "..logmarketing": {
+    "prefix": "..logmarketing",
     "body": [
       "# Marketing Campaign Log - ${1:CAMPAIGN}",
       "**Date:** ${2:date('yyyy-MM-dd')}",
